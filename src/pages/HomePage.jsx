@@ -32,12 +32,8 @@ const HomePage = () => {
 	return (
 		<main>
 			<Theme theme={theme} toggleTheme={toggleTheme} />
-			<div
-				className={`flex justify-center ${
-					theme === 1 ? "bg-white" : "bg-zinc-800"
-				} min-h-screen  ${theme === 1 ? "text-zinc-800" : "text-zinc-300"}`}
-			>
-				<div className="flex flex-col w-1/2 mb-5 mt-2">
+			<div className={`flex justify-center px-4 sm:px-16 md:px-0 ${theme === 1 ? "bg-white" : "bg-zinc-800"} min-h-screen  ${theme === 1 ? "text-zinc-800" : "text-zinc-300"}`}>
+				<div className="flex flex-col w-full md:w-[660px] mb-5 mt-2">
 					<Introduction
 						name={name}
 						tagline={tagline}

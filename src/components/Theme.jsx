@@ -2,7 +2,7 @@ import Box from "./Box";
 
 const Theme = ({ theme, toggleTheme }) => {
 	return (
-		<div onClick={() => toggleTheme(theme)} className="cursor-pointer fixed top-5 right-5 z-50">
+		<div onClick={() => toggleTheme(theme)} className="cursor-pointer absolute sm:fixed top-2 right-4 sm:top-5 sm:right-5 z-50">
 			<Box
 				icon={
 					theme === 1 ? (

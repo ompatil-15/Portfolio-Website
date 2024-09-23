@@ -4,11 +4,11 @@ import Tag from "./Tag";
 const Introduction = ({ name, tagline, personal_interests, location, theme }) => {
 	return (
 		<div className="flex">
-			<div className="flex flex-col flex-grow pr-5">
-				<div className="text-5xl font-bold mt-2 mb-1 tracking-tight">
+			<div className="flex flex-col flex-grow pr-2">
+				<div className="text-4xl md:text-6xl font-bold md:mt-2 mb-1 tracking-tight">
 					{name}
 				</div>
-				<div className="text-base">{tagline}</div>
+				<div className="text-sm md:text-base">{tagline}</div>
 				<div className="flex flex-wrap">
 					{personal_interests.map((interest) => (
 						<Tag text={interest.domain} link={interest.link} theme={theme} />

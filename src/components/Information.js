@@ -12,12 +12,12 @@ const personal_interests = [
         link: "https://en.wikipedia.org/wiki/Quantum_computing",
     },
     {
-        domain: "CyberSecurity",
-        link: "https://en.wikipedia.org/wiki/Computer_security",
-    },
-    {
         domain: "Space",
         link: "https://en.wikipedia.org/wiki/SpaceX",
+    },
+    {
+        domain: "Cybersecurity",
+        link: "https://en.wikipedia.org/wiki/Computer_security",
     },
     {
         domain: "Cybernetics",
@@ -43,7 +43,7 @@ const aboutMe = `
 
 const experiences = [
     {
-        company: "Persitent Systems",
+        company: "Persistent Systems",
         position: "Generative AI Mentorship",
         timeframe: "May 2024 - July 2024",
         description: `Developed generative AI applications using Google Gemini, LangChain, 
@@ -52,7 +52,7 @@ const experiences = [
     },
     {
         company: "PICT INC Web Team",
-        position: "Web Developer Intership",
+        position: "Web Developer Internship",
         timeframe: "February 2024 - April 2024",
         description: `Collaborated with a team to develop an Event Management System for 
 			Impetus and Concepts (InC), the flagship event of PICT, Pune, increasing operational 
@@ -65,14 +65,16 @@ const education = [
         institution: "Pune Institute of Computer Technology",
         timeframe: "June 2022 - June 2025",
         degree: "Bachelor of Engineering in Information Technology",
-        cgpa: "SGPA: 8.88",
+        sgpa: "SGPA: 8.88",
     },
 ];
 
 const skills = [
     "C++",
     "Python",
-    "Javascript",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
     "MongoDB",
     "MySQL",
     "Express.js",
@@ -80,22 +82,22 @@ const skills = [
     "Redux",
     "RTK Query",
     "Node.js",
-    "HTML5",
-    "CSS3",
     "Flutter",
     "Dart",
     "Firebase",
-    "REFTful API",
+    "GitHub",
     "AWS",
     "Docker",
-    "Tailwind",
     "Bootstrap",
+    "Tailwind",
     "Touch Typing: 101 wpm",
     "Generative AI",
-    "GitHub",
+    "RESTful API",
+    "Wireshark",
+    "Postman",
     "AI/ML",
     "OpenCV",
-    "CyberSecurity",
+    "Cybersecurity",
     "Cryptography",
     "Linux",
 ];
@@ -127,7 +129,7 @@ const projects = [
             "Dart",
             "Firebase",
             "Realtime",
-            "Cross platform",
+            "Cross-platform",
             "Gemini API",
         ],
         link: "https://github.com/ompatil-15/SKYNET-Chat-Application",
@@ -144,6 +146,7 @@ const projects = [
             "NLP",
             "FAISS",
             "Streamlit",
+            "Gemini API"
         ],
         link: "https://ompatil-genai-rag.streamlit.app/",
     },
@@ -175,7 +178,13 @@ const projects = [
         description: `
 				A platform to rent out bicycles for emergency commutes, ensuring quick and convenient 
 				transportation when needed most.`,
-        skills: ["MERN", "Tailwind", "E-commerce", "Redux"],
+        skills: [
+            "MERN", 
+            "Tailwind", 
+            "E-commerce", 
+            "Redux", 
+            "RESTful API",
+        ],
         link: "https://github.com/ompatil-15/Retro-Ride-Share/tree/main",
     },
 ];
