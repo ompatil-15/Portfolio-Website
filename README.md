@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Website](https://ompatil.onrender.com/)
 
 ## Available Scripts
 
