@@ -44,7 +44,7 @@ const Introduction = ({ name, tagline, personal_interests, location, theme }) =>
 				</div>
 
 				<div>
-					<ContactLinks />
+					<ContactLinks theme={theme} />
 				</div>
 			</div>
 			<div>

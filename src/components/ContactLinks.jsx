@@ -1,10 +1,11 @@
 import Box from "./Box";
 
-const ContactLinks = () => {
+const ContactLinks = ({theme}) => {
 	return (
 		<div className="mt-1">
 			<Box
 				href="mailto:patilom001@gmail.com"
+                theme={theme}
 				icon={
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -26,6 +27,7 @@ const ContactLinks = () => {
 			/>
 			<Box
 				href="tel:+91 9049999499"
+                theme={theme}
 				icon={
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -46,6 +48,7 @@ const ContactLinks = () => {
 			/>
 			<Box
 				href="https://github.com/ompatil-15"
+                theme={theme}
 				icon={
 					<svg
 						viewBox="0 0 24 24"
@@ -62,6 +65,7 @@ const ContactLinks = () => {
 			/>
 			<Box
 				href="https://www.linkedin.com/in/ompatil15/"
+                theme={theme}
 				icon={
 					<svg
 						viewBox="0 0 24 24"
@@ -79,6 +83,7 @@ const ContactLinks = () => {
 			/>
 			<Box
 				href="https://x.com/cyberman_15"
+                theme={theme}
 				icon={
 					<svg
 						viewBox="0 0 24 24"
@@ -97,6 +102,7 @@ const ContactLinks = () => {
 			<Box
 				href="/Resume-OmPatil.pdf"
                 download="Resume - Om Patil"
+                theme={theme}
 				icon={
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
