@@ -24,7 +24,7 @@ const HomePage = () => {
 	const [theme, setTheme] = useState(localStorage.getItem("theme") || 1);
 
 	const toggleTheme = (theme) => {
-		const newTheme = theme === 1 ? 0 : 1;
+		const newTheme = theme === 1 ? 1 : 0;
 		setTheme(newTheme);
 		localStorage.setItem("theme", newTheme);
 	};
