@@ -21,10 +21,10 @@ import {
 } from "../components/Information"
 
 const HomePage = () => {
-	const [theme, setTheme] = useState(localStorage.getItem("theme") || 1);
+	const [theme, setTheme] = useState(Number(localStorage.getItem("theme")) || 1);
 
 	const toggleTheme = (theme) => {
-		const newTheme = theme === 1 ? 1 : 0;
+		const newTheme = theme === 1 ? 0 : 1;
 		setTheme(newTheme);
 		localStorage.setItem("theme", newTheme);
 	};
