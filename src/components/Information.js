@@ -90,7 +90,7 @@ const skills = [
     "Docker",
     "Bootstrap",
     "Tailwind",
-    "Touch Typing: 101 wpm",
+    "Touch Typing: 121 wpm",
     "Generative AI",
     "RESTful API",
     "Wireshark",
