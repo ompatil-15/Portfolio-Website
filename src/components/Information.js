@@ -43,6 +43,14 @@ const aboutMe = `
 
 const experiences = [
     {
+        company: "Bizmorphic Research",
+        position: "Full Stack Developer Intern",
+        timeframe: "October 2024 - Present",
+	description: `Working as a Full Stack Developer in a startup with a dynamic team of 10. 
+			Currently developing an integration that allows clients to respond to customer query tickets 
+			directly within our platform, eliminating the need to switch between systems.`,
+    },
+    {
         company: "Persistent Systems",
         position: "Generative AI Mentorship",
         timeframe: "May 2024 - July 2024",
@@ -52,7 +60,7 @@ const experiences = [
     },
     {
         company: "PICT INC Web Team",
-        position: "Web Developer Internship",
+        position: "Web Developer Intern",
         timeframe: "February 2024 - April 2024",
         description: `Collaborated with a team to develop an Event Management System for 
 			Impetus and Concepts (InC), the flagship event of PICT, Pune, increasing operational 
