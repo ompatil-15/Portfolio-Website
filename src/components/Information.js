@@ -47,8 +47,8 @@ const experiences = [
         position: "Full Stack Developer Intern",
         timeframe: "October 2024 - Present",
 	description: `Working as a Full Stack Developer in a startup with a dynamic team of 10. 
-			Currently developing an integration that allows clients to respond to customer query tickets 
-			directly within our platform, eliminating the need to switch between systems.`,
+			Currently integrating slack to handle chatbot conversations facilitating 
+			real-time communication between agents and visitor.`,
     },
     {
         company: "Persistent Systems",
