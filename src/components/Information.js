@@ -32,23 +32,23 @@ const personal_interests = [
 const location = "Pune, Maharashtra, India";
 
 const aboutMe = `
-		I am a purpose-driven Software Engineer specializing in scalable, secure web 
-		and mobile applications using the MERN stack, Flutter, and AI integration. 
-		With expertise in end-to-end project ownership and first-principles analysis, 
-		I tackle complex challenges from design to deployment. Notably, I engineered 
-		the security design of an end-to-end encrypted password manager from scratch. 
-		As an effective communicator, I am committed to continuous learning and innovation, 
-		adapting to emerging technologies to build future-ready applications.
+		I'm Om Patil, an engineer by passion who loves building products that people use, value, and remember. 
+  		I care deeply about purpose, when you're clear on the why, the how follows. I focus on creating value 
+    		through engineering, believing that what you give returns through leverage, learning, and luck. 
+      		My flagship project is SHIELD, a zero-knowledge, end-to-end encrypted password manager with a custom-designed 
+		security architecture inspired by real-world threat models and research papers.
 	`;
 
 const experiences = [
     {
         company: "Bizmorphic Research",
         position: "Full Stack Developer Intern",
-        timeframe: "October 2024 - Present",
-	description: `Working as a Full Stack Developer in a startup with a dynamic team of 10. 
-			Currently integrating slack to handle chatbot conversations facilitating 
-			real-time communication between agents and visitor.`,
+        timeframe: "October 2024 - March 2025",
+	description: `Took full ownership of the conversation service at wisemelon.ai, 
+	 		resolving major system-breaking bugs, implementing real-time socket communication, 
+	   		and leading architectural changes, transforming a broken prototype into a production-ready 
+	     		platform for onboarding customer support businesses.
+       	`,
     },
     {
         company: "Persistent Systems",
