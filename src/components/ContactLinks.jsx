@@ -100,8 +100,8 @@ const ContactLinks = ({theme}) => {
 				altText="X"
 			/>
 			<Box
-				href="/Resume-OmPatil.pdf"
-                download="Resume - Om Patil"
+				href="/Resume_OmPatil.pdf"
+                download="Resume_OmPatil"
                 theme={theme}
 				icon={
 					<svg
