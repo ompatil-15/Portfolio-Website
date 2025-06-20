@@ -32,40 +32,49 @@ const personal_interests = [
 const location = "Pune, Maharashtra, India";
 
 const aboutMe = `
-		I'm Om Patil, an engineer by passion who loves building products that people use, value, and remember. 
-  		I care deeply about purpose, when you're clear on the why, the how follows. I focus on creating value 
-    		through engineering, believing that what you give returns through leverage, learning, and luck. 
-      		My flagship project is SHIELD, a zero-knowledge, end-to-end encrypted password manager with a custom-designed 
-		security architecture inspired by real-world threat models and research papers.
+		Hi, I'm Om Patil, an engineer driven by curiosity and purpose. I love building products that create real impact 
+  		and bring value to the world. For me, clarity in why leads the way to how, and I try to create through engineering 
+    		what I’d want to use myself. My flagship project is SHIELD, a zero-knowledge, end-to-end encrypted password manager 
+      		with a custom security architecture inspired by real-world threats and research. I enjoy learning from the world 
+		around me, listening to diverse perspectives, exploring new ideas, and growing through shared knowledge. You’ll often 
+  		find me reading engineering blogs, tinkering with projects, and building things I believe matter.
 	`;
 
 const experiences = [
     {
+        company: "PayU",
+        position: "SDE Intern",
+        timeframe: "April 2025 - Present",
+	description: `Building a real-time anomaly and fraud detection system as part of a strategic initiative within PayU, 
+ 			in collaboration with senior engineers, architects, and engineering leadership. The system is designed 
+    			to detect behavioral anomalies and fraudulent patterns in high-throughput financial transaction streams.`,
+    },
+    {
         company: "Bizmorphic Research",
-        position: "Full Stack Developer Intern",
+        position: "SDE Intern",
         timeframe: "October 2024 - March 2025",
 	description: `Took full ownership of the conversation service at wisemelon.ai, 
 	 		resolving major system-breaking bugs, implementing real-time socket communication, 
 	   		and leading architectural changes, transforming a broken prototype into a production-ready 
-	     		platform for onboarding customer support businesses.
+	     		platform for onboarding businesses.
        	`,
     },
-    {
-        company: "Persistent Systems",
-        position: "Generative AI Mentorship",
-        timeframe: "May 2024 - July 2024",
-        description: `Developed generative AI applications using Google Gemini, LangChain, 
-			and CrewAI, including an AI chatbot for document interaction, fine-tuned PEFT models, 
-			and multi-agent workflows for a blog website.`,
-    },
-    {
-        company: "PICT INC Web Team",
-        position: "Web Developer Intern",
-        timeframe: "February 2024 - April 2024",
-        description: `Collaborated with a team to develop an Event Management System for 
-			Impetus and Concepts (InC), the flagship event of PICT, Pune, increasing operational 
-			efficiency for the organizing team by automating and digitizing the entire process.`,
-    },
+   //  {
+   //      company: "Persistent Systems",
+   //      position: "Generative AI Mentorship",
+   //      timeframe: "May 2024 - July 2024",
+   //      description: `Developed generative AI applications using Google Gemini, LangChain, 
+			// and CrewAI, including an AI chatbot for document interaction, fine-tuned PEFT models, 
+			// and multi-agent workflows for a blog website.`,
+   //  },
+   //  {
+   //      company: "PICT INC Web Team",
+   //      position: "Web Developer Intern",
+   //      timeframe: "February 2024 - April 2024",
+   //      description: `Collaborated with a team to develop an Event Management System for 
+			// Impetus and Concepts (InC), the flagship event of PICT, Pune, increasing operational 
+			// efficiency for the organizing team by automating and digitizing the entire process.`,
+   //  },
 ];
 
 const education = [
@@ -78,6 +87,7 @@ const education = [
 ];
 
 const skills = [
+    "Java",
     "C++",
     "Python",
     "JavaScript",
@@ -85,6 +95,9 @@ const skills = [
     "CSS3",
     "MongoDB",
     "MySQL",
+    "Spring Boot",
+    "Kafka",
+    "Grafana",
     "Express.js",
     "React",
     "Redux",
